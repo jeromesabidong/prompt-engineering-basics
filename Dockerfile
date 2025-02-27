@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "src/1-guidelines.py"]
+CMD ["python", "src/7-chatbot.py"]
