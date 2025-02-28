@@ -1,0 +1,11 @@
+services:
+  python-openai:
+    build: .
+    volumes:
+      - ./src:/usr/src/app
+      - .env:/usr/src/.env
+    command: ["python", "/usr/src/app"]
+    entrypoint: ["python"]
+networks:
+  default:
+    name: python-prompt-default

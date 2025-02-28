@@ -3,7 +3,10 @@
 A simple runner of scripts to study OpenAI if you don't want to install python on your local..
 .. but you have Docker.
 
-Following along with the course Prompt Engineering at DeepLearning.ai
+# Course References
+
+- Following along with the course Prompt Engineering at DeepLearning.ai (1-7)
+- Understanding and Applying Text Embeddings at DeepLearning.ai (8- )
 
 Creating this as a test environment for the OpenAI API
 
@@ -21,10 +24,6 @@ docker build -t python-openai .
 ```
 docker run -it --rm python-openai
 ```
-
-## To-do's
-
-- remove the need to rebuild and run
 
 ## Guide
 
