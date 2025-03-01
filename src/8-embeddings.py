@@ -50,3 +50,5 @@ vec_3 = [emb_3[0].values]
 # NOTES
 # 
 # Sentence embeddings are better than word embeddings
+# Sentence embeddings that have similar thought have close data points in the 
+# embedding vector space
